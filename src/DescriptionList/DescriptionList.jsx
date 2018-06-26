@@ -1,6 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import { Row } from 'antd';
+import '../../assets/DescriptionList.css';
 
 const DescriptionList = ({
   className,
@@ -13,7 +14,7 @@ const DescriptionList = ({
   size,
   ...restProps
 }) => {
-  const clsString = classNames(descriptionList, layout, className, size);
+  const clsString = classNames("descriptionList", layout, className, size);
   const column = col > 4 ? 4 : col;
   return (
     <div className={clsString} {...restProps}>

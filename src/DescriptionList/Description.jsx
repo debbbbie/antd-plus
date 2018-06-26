@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Col } from 'antd';
+import '../../assets/DescriptionList.css';
 
 const responsive = {
   1: { xs: 24 },
