@@ -1,6 +1,6 @@
 {
   "name": "antd-plus",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "description": "Ant Design plus, more components",
   "main": "./lib/index",
   "module": "./es/index",
